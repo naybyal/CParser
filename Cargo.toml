@@ -1,0 +1,11 @@
+[package]
+name = "c_parser"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+prost = "0.13.4"         # For Protobuf encoding/decoding
+clang = "2.0.0"          # For Clang bindings
+
+[build-dependencies]
+prost-build = "0.13.4"   # For generating Protobuf Rust code

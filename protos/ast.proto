@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package ast_proto;
+
+message AST {
+    ASTNode root = 1;
+}
+
+message ASTNode {
+    string node_type = 1;
+    string name = 2;
+    repeated ASTNode children = 3;
+}
