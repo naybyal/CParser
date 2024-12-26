@@ -58,7 +58,6 @@ fn main() -> io::Result<()> {
     let encoded = ast.encode_to_vec();
     file.write_all(&encoded)?;
 
-    // Notify that the AST has been saved
     println!("AST saved to {}", output_file);
 
     Ok(())
