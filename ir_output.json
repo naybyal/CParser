@@ -1,0 +1,4106 @@
+{
+  "node_type": "TranslationUnit",
+  "name": "test.c",
+  "children": [
+    {
+      "node_type": "TypedefDecl",
+      "name": "size_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "va_list",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__builtin_va_list",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__gnuc_va_list",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__builtin_va_list",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__u_char",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__u_short",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__u_int",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__u_long",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__int8_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__uint8_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__int16_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__uint16_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__int32_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__uint32_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__int64_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__uint64_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__int_least8_t",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__int8_t",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__uint_least8_t",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__uint8_t",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__int_least16_t",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__int16_t",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__uint_least16_t",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__uint16_t",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__int_least32_t",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__int32_t",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__uint_least32_t",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__uint32_t",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__int_least64_t",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__int64_t",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__uint_least64_t",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__uint64_t",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__quad_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__u_quad_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__intmax_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__uintmax_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__dev_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__uid_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__gid_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__ino_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__ino64_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__mode_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__nlink_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__off_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__off64_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__pid_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "StructDecl",
+      "name": "",
+      "children": [
+        {
+          "node_type": "FieldDecl",
+          "name": "__val",
+          "children": [
+            {
+              "node_type": "IntegerLiteral",
+              "name": "",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__fsid_t",
+      "children": [
+        {
+          "node_type": "StructDecl",
+          "name": "",
+          "children": [
+            {
+              "node_type": "FieldDecl",
+              "name": "__val",
+              "children": [
+                {
+                  "node_type": "IntegerLiteral",
+                  "name": "",
+                  "children": [],
+                  "control_flow": null
+                }
+              ],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__clock_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__rlim_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__rlim64_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__id_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__time_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__useconds_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__suseconds_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__suseconds64_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__daddr_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__key_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__clockid_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__timer_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__blksize_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__blkcnt_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__blkcnt64_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__fsblkcnt_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__fsblkcnt64_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__fsfilcnt_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__fsfilcnt64_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__fsword_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__ssize_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__syscall_slong_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__syscall_ulong_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__loff_t",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__off64_t",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__caddr_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__intptr_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__socklen_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__sig_atomic_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "StructDecl",
+      "name": "",
+      "children": [
+        {
+          "node_type": "FieldDecl",
+          "name": "__count",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "UnionDecl",
+          "name": "",
+          "children": [
+            {
+              "node_type": "FieldDecl",
+              "name": "__wch",
+              "children": [],
+              "control_flow": null
+            },
+            {
+              "node_type": "FieldDecl",
+              "name": "__wchb",
+              "children": [
+                {
+                  "node_type": "IntegerLiteral",
+                  "name": "",
+                  "children": [],
+                  "control_flow": null
+                }
+              ],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "__value",
+          "children": [
+            {
+              "node_type": "UnionDecl",
+              "name": "",
+              "children": [
+                {
+                  "node_type": "FieldDecl",
+                  "name": "__wch",
+                  "children": [],
+                  "control_flow": null
+                },
+                {
+                  "node_type": "FieldDecl",
+                  "name": "__wchb",
+                  "children": [
+                    {
+                      "node_type": "IntegerLiteral",
+                      "name": "",
+                      "children": [],
+                      "control_flow": null
+                    }
+                  ],
+                  "control_flow": null
+                }
+              ],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__mbstate_t",
+      "children": [
+        {
+          "node_type": "StructDecl",
+          "name": "",
+          "children": [
+            {
+              "node_type": "FieldDecl",
+              "name": "__count",
+              "children": [],
+              "control_flow": null
+            },
+            {
+              "node_type": "UnionDecl",
+              "name": "",
+              "children": [
+                {
+                  "node_type": "FieldDecl",
+                  "name": "__wch",
+                  "children": [],
+                  "control_flow": null
+                },
+                {
+                  "node_type": "FieldDecl",
+                  "name": "__wchb",
+                  "children": [
+                    {
+                      "node_type": "IntegerLiteral",
+                      "name": "",
+                      "children": [],
+                      "control_flow": null
+                    }
+                  ],
+                  "control_flow": null
+                }
+              ],
+              "control_flow": null
+            },
+            {
+              "node_type": "FieldDecl",
+              "name": "__value",
+              "children": [
+                {
+                  "node_type": "UnionDecl",
+                  "name": "",
+                  "children": [
+                    {
+                      "node_type": "FieldDecl",
+                      "name": "__wch",
+                      "children": [],
+                      "control_flow": null
+                    },
+                    {
+                      "node_type": "FieldDecl",
+                      "name": "__wchb",
+                      "children": [
+                        {
+                          "node_type": "IntegerLiteral",
+                          "name": "",
+                          "children": [],
+                          "control_flow": null
+                        }
+                      ],
+                      "control_flow": null
+                    }
+                  ],
+                  "control_flow": null
+                }
+              ],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "StructDecl",
+      "name": "_G_fpos_t",
+      "children": [
+        {
+          "node_type": "FieldDecl",
+          "name": "__pos",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "__off_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "__state",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "__mbstate_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__fpos_t",
+      "children": [
+        {
+          "node_type": "StructDecl",
+          "name": "_G_fpos_t",
+          "children": [
+            {
+              "node_type": "FieldDecl",
+              "name": "__pos",
+              "children": [
+                {
+                  "node_type": "TypeRef",
+                  "name": "__off_t",
+                  "children": [],
+                  "control_flow": null
+                }
+              ],
+              "control_flow": null
+            },
+            {
+              "node_type": "FieldDecl",
+              "name": "__state",
+              "children": [
+                {
+                  "node_type": "TypeRef",
+                  "name": "__mbstate_t",
+                  "children": [],
+                  "control_flow": null
+                }
+              ],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "StructDecl",
+      "name": "_G_fpos64_t",
+      "children": [
+        {
+          "node_type": "FieldDecl",
+          "name": "__pos",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "__off64_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "__state",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "__mbstate_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__fpos64_t",
+      "children": [
+        {
+          "node_type": "StructDecl",
+          "name": "_G_fpos64_t",
+          "children": [
+            {
+              "node_type": "FieldDecl",
+              "name": "__pos",
+              "children": [
+                {
+                  "node_type": "TypeRef",
+                  "name": "__off64_t",
+                  "children": [],
+                  "control_flow": null
+                }
+              ],
+              "control_flow": null
+            },
+            {
+              "node_type": "FieldDecl",
+              "name": "__state",
+              "children": [
+                {
+                  "node_type": "TypeRef",
+                  "name": "__mbstate_t",
+                  "children": [],
+                  "control_flow": null
+                }
+              ],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "StructDecl",
+      "name": "_IO_FILE",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "__FILE",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "struct _IO_FILE",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "StructDecl",
+      "name": "_IO_FILE",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "FILE",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "struct _IO_FILE",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "StructDecl",
+      "name": "_IO_FILE",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "StructDecl",
+      "name": "_IO_marker",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "StructDecl",
+      "name": "_IO_codecvt",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "StructDecl",
+      "name": "_IO_wide_data",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "_IO_lock_t",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "StructDecl",
+      "name": "_IO_FILE",
+      "children": [
+        {
+          "node_type": "FieldDecl",
+          "name": "_flags",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_IO_read_ptr",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_IO_read_end",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_IO_read_base",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_IO_write_base",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_IO_write_ptr",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_IO_write_end",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_IO_buf_base",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_IO_buf_end",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_IO_save_base",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_IO_backup_base",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_IO_save_end",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_markers",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "struct _IO_marker",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_chain",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "struct _IO_FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_fileno",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_flags2",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_old_offset",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "__off_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_cur_column",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_vtable_offset",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_shortbuf",
+          "children": [
+            {
+              "node_type": "IntegerLiteral",
+              "name": "",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_lock",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "_IO_lock_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_offset",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "__off64_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_codecvt",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "struct _IO_codecvt",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_wide_data",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "struct _IO_wide_data",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_freeres_list",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "struct _IO_FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_freeres_buf",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "__pad5",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "size_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_mode",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "_unused2",
+          "children": [
+            {
+              "node_type": "BinaryOperator",
+              "name": "",
+              "children": [
+                {
+                  "node_type": "BinaryOperator",
+                  "name": "",
+                  "children": [
+                    {
+                      "node_type": "BinaryOperator",
+                      "name": "",
+                      "children": [
+                        {
+                          "node_type": "UnexposedExpr",
+                          "name": "",
+                          "children": [
+                            {
+                              "node_type": "IntegerLiteral",
+                              "name": "",
+                              "children": [],
+                              "control_flow": null
+                            }
+                          ],
+                          "control_flow": null
+                        },
+                        {
+                          "node_type": "UnaryExpr",
+                          "name": "",
+                          "children": [],
+                          "control_flow": null
+                        }
+                      ],
+                      "control_flow": null
+                    },
+                    {
+                      "node_type": "BinaryOperator",
+                      "name": "",
+                      "children": [
+                        {
+                          "node_type": "UnexposedExpr",
+                          "name": "",
+                          "children": [
+                            {
+                              "node_type": "IntegerLiteral",
+                              "name": "",
+                              "children": [],
+                              "control_flow": null
+                            }
+                          ],
+                          "control_flow": null
+                        },
+                        {
+                          "node_type": "UnaryExpr",
+                          "name": "",
+                          "children": [],
+                          "control_flow": null
+                        }
+                      ],
+                      "control_flow": null
+                    }
+                  ],
+                  "control_flow": null
+                },
+                {
+                  "node_type": "UnaryExpr",
+                  "name": "",
+                  "children": [
+                    {
+                      "node_type": "TypeRef",
+                      "name": "size_t",
+                      "children": [],
+                      "control_flow": null
+                    }
+                  ],
+                  "control_flow": null
+                }
+              ],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "va_list",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__gnuc_va_list",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "off_t",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__off_t",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "ssize_t",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__ssize_t",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "fpos_t",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__fpos_t",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "VarDecl",
+      "name": "stdin",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "FILE",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "VarDecl",
+      "name": "stdout",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "FILE",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "VarDecl",
+      "name": "stderr",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "FILE",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "remove",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__filename",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "rename",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__old",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__new",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "renameat",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__oldfd",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__old",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__newfd",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__new",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fclose",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "tmpfile",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "TypeRef",
+          "name": "FILE",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "tmpnam",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "",
+          "children": [
+            {
+              "node_type": "IntegerLiteral",
+              "name": "",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "tmpnam_r",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [
+            {
+              "node_type": "IntegerLiteral",
+              "name": "",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "tempnam",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__dir",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__pfx",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fflush",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fflush_unlocked",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fopen",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "TypeRef",
+          "name": "FILE",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__filename",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__modes",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "freopen",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "FILE",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__filename",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__modes",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fdopen",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "TypeRef",
+          "name": "FILE",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__fd",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__modes",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fmemopen",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "TypeRef",
+          "name": "FILE",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__len",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "size_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__modes",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "open_memstream",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "TypeRef",
+          "name": "FILE",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__bufloc",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__sizeloc",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "size_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "setbuf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__buf",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "setvbuf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__buf",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__modes",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__n",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "size_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "setbuffer",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__buf",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__size",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "size_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "setlinebuf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fprintf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "printf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "sprintf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "vfprintf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__arg",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "__gnuc_va_list",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "vprintf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__arg",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "__gnuc_va_list",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "vsprintf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__arg",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "__gnuc_va_list",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "snprintf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__maxlen",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "size_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "vsnprintf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__maxlen",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "size_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__arg",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "__gnuc_va_list",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "vdprintf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__fd",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__fmt",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__arg",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "__gnuc_va_list",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "dprintf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__fd",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__fmt",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fscanf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "scanf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "sscanf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "_Float32",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "_Float64",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "_Float32x",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "TypedefDecl",
+      "name": "_Float64x",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fscanf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "AsmLabelAttr",
+          "name": "__isoc99_fscanf",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "scanf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "AsmLabelAttr",
+          "name": "__isoc99_scanf",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "sscanf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "AsmLabelAttr",
+          "name": "__isoc99_sscanf",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "vfscanf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__arg",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "__gnuc_va_list",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "vscanf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__arg",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "__gnuc_va_list",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "vsscanf",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__arg",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "__gnuc_va_list",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "vfscanf",
+      "children": [
+        {
+          "node_type": "AsmLabelAttr",
+          "name": "__isoc99_vfscanf",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__arg",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "__gnuc_va_list",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "vscanf",
+      "children": [
+        {
+          "node_type": "AsmLabelAttr",
+          "name": "__isoc99_vscanf",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__arg",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "__gnuc_va_list",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "vsscanf",
+      "children": [
+        {
+          "node_type": "AsmLabelAttr",
+          "name": "__isoc99_vsscanf",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__format",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__arg",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "__gnuc_va_list",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fgetc",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "getc",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "getchar",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "getc_unlocked",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "getchar_unlocked",
+      "children": [],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fgetc_unlocked",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fputc",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__c",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "putc",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__c",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "putchar",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__c",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fputc_unlocked",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__c",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "putc_unlocked",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__c",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "putchar_unlocked",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__c",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "getw",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "putw",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__w",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fgets",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__n",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "__getdelim",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__ssize_t",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__lineptr",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__n",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "size_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__delimiter",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "getdelim",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__ssize_t",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__lineptr",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__n",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "size_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__delimiter",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "getline",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__ssize_t",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__lineptr",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__n",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "size_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fputs",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "puts",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "ungetc",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__c",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fread",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "size_t",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__ptr",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__size",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "size_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__n",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "size_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fwrite",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "size_t",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__ptr",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__size",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "size_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__n",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "size_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fread_unlocked",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "size_t",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__ptr",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__size",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "size_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__n",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "size_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fwrite_unlocked",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "size_t",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__ptr",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__size",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "size_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__n",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "size_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fseek",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__off",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__whence",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "ftell",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "rewind",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fseeko",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__off",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "__off_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__whence",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "ftello",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__off_t",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fgetpos",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__pos",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "fpos_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fsetpos",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__pos",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "fpos_t",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "clearerr",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "feof",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "ferror",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "clearerr_unlocked",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "feof_unlocked",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "ferror_unlocked",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "perror",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fileno",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "fileno_unlocked",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "pclose",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "popen",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "TypeRef",
+          "name": "FILE",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__command",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__modes",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "ctermid",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__s",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "flockfile",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "ftrylockfile",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "funlockfile",
+      "children": [
+        {
+          "node_type": "UnexposedAttr",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "__stream",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "__uflow",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "__overflow",
+      "children": [
+        {
+          "node_type": "ParmDecl",
+          "name": "",
+          "children": [
+            {
+              "node_type": "TypeRef",
+              "name": "FILE",
+              "children": [],
+              "control_flow": null
+            }
+          ],
+          "control_flow": null
+        },
+        {
+          "node_type": "ParmDecl",
+          "name": "",
+          "children": [],
+          "control_flow": null
+        }
+      ],
+      "control_flow": null
+    },
+    {
+      "node_type": "FunctionDecl",
+      "name": "main",
+      "children": [],
+      "control_flow": null
+    }
+  ],
+  "control_flow": null
+}
