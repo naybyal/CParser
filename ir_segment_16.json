@@ -1,0 +1,35 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "rename",
+  "children": [
+    {
+      "node_type": "UnexposedAttr",
+      "name": "",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__old",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__new",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__old",
+    "__value",
+    "",
+    "__count",
+    "__new"
+  ]
+}

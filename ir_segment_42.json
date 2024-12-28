@@ -1,0 +1,53 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "vdprintf",
+  "children": [
+    {
+      "node_type": "UnexposedAttr",
+      "name": "",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__fd",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__fmt",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__arg",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__gnuc_va_list",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "__gnuc_va_list"
+      ]
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__value",
+    "__count",
+    "__fmt",
+    "__fd",
+    "__arg",
+    ""
+  ]
+}

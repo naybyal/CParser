@@ -1,0 +1,53 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "fscanf",
+  "children": [
+    {
+      "node_type": "UnexposedAttr",
+      "name": "",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "AsmLabelAttr",
+      "name": "__isoc99_fscanf",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__stream",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "FILE",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "FILE"
+      ]
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__format",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__value",
+    "",
+    "__stream",
+    "__count",
+    "__isoc99_fscanf",
+    "__format"
+  ]
+}

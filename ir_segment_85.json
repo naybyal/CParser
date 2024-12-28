@@ -1,0 +1,35 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "ftello",
+  "children": [
+    {
+      "node_type": "TypeRef",
+      "name": "__off_t",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__stream",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "FILE",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "FILE"
+      ]
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__off_t",
+    "__stream"
+  ]
+}

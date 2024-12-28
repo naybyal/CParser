@@ -1,0 +1,27 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "printf",
+  "children": [
+    {
+      "node_type": "UnexposedAttr",
+      "name": "",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__format",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__format",
+    "",
+    "__value",
+    "__count"
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "node_type": "StructDecl",
+  "name": "_IO_FILE",
+  "children": [
+    {
+      "node_type": "FieldDecl",
+      "name": "_flags",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_IO_read_ptr",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_IO_read_end",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_IO_read_base",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_IO_write_base",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_IO_write_ptr",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_IO_write_end",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_IO_buf_base",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_IO_buf_end",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_IO_save_base",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_IO_backup_base",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_IO_save_end",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_markers",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "struct _IO_marker",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "struct _IO_marker"
+      ]
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_chain",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "struct _IO_FILE",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "struct _IO_FILE"
+      ]
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_fileno",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_flags2",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_old_offset",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__off_t",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "__off_t"
+      ]
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_cur_column",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_vtable_offset",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_shortbuf",
+      "children": [
+        {
+          "node_type": "IntegerLiteral",
+          "name": "",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        ""
+      ]
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_lock",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "_IO_lock_t",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "_IO_lock_t"
+      ]
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_offset",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__off64_t",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "__off64_t"
+      ]
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_codecvt",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "struct _IO_codecvt",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "struct _IO_codecvt"
+      ]
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_wide_data",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "struct _IO_wide_data",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "struct _IO_wide_data"
+      ]
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_freeres_list",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "struct _IO_FILE",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "struct _IO_FILE"
+      ]
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_freeres_buf",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "__pad5",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "size_t",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "size_t"
+      ]
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_mode",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "_unused2",
+      "children": [
+        {
+          "node_type": "BinaryOperator",
+          "name": "",
+          "children": [
+            {
+              "node_type": "BinaryOperator",
+              "name": "",
+              "children": [
+                {
+                  "node_type": "BinaryOperator",
+                  "name": "",
+                  "children": [
+                    {
+                      "node_type": "UnexposedExpr",
+                      "name": "",
+                      "children": [
+                        {
+                          "node_type": "IntegerLiteral",
+                          "name": "",
+                          "children": [],
+                          "control_flow": null,
+                          "dependencies": []
+                        }
+                      ],
+                      "control_flow": null,
+                      "dependencies": [
+                        ""
+                      ]
+                    },
+                    {
+                      "node_type": "UnaryExpr",
+                      "name": "",
+                      "children": [],
+                      "control_flow": null,
+                      "dependencies": []
+                    }
+                  ],
+                  "control_flow": null,
+                  "dependencies": [
+                    ""
+                  ]
+                },
+                {
+                  "node_type": "BinaryOperator",
+                  "name": "",
+                  "children": [
+                    {
+                      "node_type": "UnexposedExpr",
+                      "name": "",
+                      "children": [
+                        {
+                          "node_type": "IntegerLiteral",
+                          "name": "",
+                          "children": [],
+                          "control_flow": null,
+                          "dependencies": []
+                        }
+                      ],
+                      "control_flow": null,
+                      "dependencies": [
+                        ""
+                      ]
+                    },
+                    {
+                      "node_type": "UnaryExpr",
+                      "name": "",
+                      "children": [],
+                      "control_flow": null,
+                      "dependencies": []
+                    }
+                  ],
+                  "control_flow": null,
+                  "dependencies": [
+                    ""
+                  ]
+                }
+              ],
+              "control_flow": null,
+              "dependencies": [
+                ""
+              ]
+            },
+            {
+              "node_type": "UnaryExpr",
+              "name": "",
+              "children": [
+                {
+                  "node_type": "TypeRef",
+                  "name": "size_t",
+                  "children": [],
+                  "control_flow": null,
+                  "dependencies": []
+                }
+              ],
+              "control_flow": null,
+              "dependencies": [
+                "size_t"
+              ]
+            }
+          ],
+          "control_flow": null,
+          "dependencies": [
+            ""
+          ]
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        ""
+      ]
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "_IO_save_base",
+    "_flags",
+    "_old_offset",
+    "_fileno",
+    "_shortbuf",
+    "_wide_data",
+    "__pad5",
+    "_IO_write_end",
+    "_unused2",
+    "_freeres_list",
+    "_codecvt",
+    "_IO_write_ptr",
+    "_lock",
+    "_IO_read_base",
+    "_mode",
+    "_IO_read_end",
+    "_freeres_buf",
+    "_markers",
+    "_offset",
+    "_cur_column",
+    "_IO_backup_base",
+    "_chain",
+    "_IO_buf_base",
+    "_IO_save_end",
+    "_IO_write_base",
+    "_vtable_offset",
+    "_IO_read_ptr",
+    "_flags2",
+    "_IO_buf_end"
+  ]
+}

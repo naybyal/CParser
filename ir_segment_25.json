@@ -1,0 +1,43 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "fopen",
+  "children": [
+    {
+      "node_type": "UnexposedAttr",
+      "name": "",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "TypeRef",
+      "name": "FILE",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__filename",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__modes",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "FILE",
+    "__modes",
+    "__filename",
+    "",
+    "__value",
+    "__count"
+  ]
+}

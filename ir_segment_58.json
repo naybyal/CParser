@@ -1,0 +1,7 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "getchar",
+  "children": [],
+  "control_flow": null,
+  "dependencies": []
+}

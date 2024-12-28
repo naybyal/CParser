@@ -1,0 +1,69 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "getdelim",
+  "children": [
+    {
+      "node_type": "TypeRef",
+      "name": "__ssize_t",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__lineptr",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__n",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "size_t",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "size_t"
+      ]
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__delimiter",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__stream",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "FILE",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "FILE"
+      ]
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__ssize_t",
+    "__n",
+    "__lineptr",
+    "__delimiter",
+    "__stream"
+  ]
+}

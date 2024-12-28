@@ -1,0 +1,43 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "fgets",
+  "children": [
+    {
+      "node_type": "ParmDecl",
+      "name": "__s",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__n",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__stream",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "FILE",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "FILE"
+      ]
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__s",
+    "__n",
+    "__stream"
+  ]
+}

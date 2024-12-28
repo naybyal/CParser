@@ -1,0 +1,60 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "open_memstream",
+  "children": [
+    {
+      "node_type": "UnexposedAttr",
+      "name": "",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "UnexposedAttr",
+      "name": "",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "TypeRef",
+      "name": "FILE",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__bufloc",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__sizeloc",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "size_t",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "size_t"
+      ]
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__sizeloc",
+    "__value",
+    "__count",
+    "__bufloc",
+    "FILE",
+    ""
+  ]
+}

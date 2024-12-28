@@ -1,0 +1,29 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "__uflow",
+  "children": [
+    {
+      "node_type": "ParmDecl",
+      "name": "",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "FILE",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "FILE"
+      ]
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "",
+    "__count",
+    "__value"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "node_type": "StructDecl",
+  "name": "",
+  "children": [
+    {
+      "node_type": "FieldDecl",
+      "name": "__count",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "UnionDecl",
+      "name": "",
+      "children": [
+        {
+          "node_type": "FieldDecl",
+          "name": "__wch",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        },
+        {
+          "node_type": "FieldDecl",
+          "name": "__wchb",
+          "children": [
+            {
+              "node_type": "IntegerLiteral",
+              "name": "",
+              "children": [],
+              "control_flow": null,
+              "dependencies": []
+            }
+          ],
+          "control_flow": null,
+          "dependencies": [
+            ""
+          ]
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "__wch",
+        "__wchb"
+      ]
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "__value",
+      "children": [
+        {
+          "node_type": "UnionDecl",
+          "name": "",
+          "children": [
+            {
+              "node_type": "FieldDecl",
+              "name": "__wch",
+              "children": [],
+              "control_flow": null,
+              "dependencies": []
+            },
+            {
+              "node_type": "FieldDecl",
+              "name": "__wchb",
+              "children": [
+                {
+                  "node_type": "IntegerLiteral",
+                  "name": "",
+                  "children": [],
+                  "control_flow": null,
+                  "dependencies": []
+                }
+              ],
+              "control_flow": null,
+              "dependencies": [
+                ""
+              ]
+            }
+          ],
+          "control_flow": null,
+          "dependencies": [
+            "__wch",
+            "__wchb"
+          ]
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        ""
+      ]
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "",
+    "__value",
+    "__count"
+  ]
+}

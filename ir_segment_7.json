@@ -1,0 +1,45 @@
+{
+  "node_type": "StructDecl",
+  "name": "_G_fpos64_t",
+  "children": [
+    {
+      "node_type": "FieldDecl",
+      "name": "__pos",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__off64_t",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "__off64_t"
+      ]
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "__state",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__mbstate_t",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "__mbstate_t"
+      ]
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__pos",
+    "__state"
+  ]
+}

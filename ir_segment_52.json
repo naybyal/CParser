@@ -1,0 +1,60 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "vsscanf",
+  "children": [
+    {
+      "node_type": "UnexposedAttr",
+      "name": "",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "UnexposedAttr",
+      "name": "",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__s",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__format",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__arg",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__gnuc_va_list",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "__gnuc_va_list"
+      ]
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__s",
+    "",
+    "__arg",
+    "__count",
+    "__value",
+    "__format"
+  ]
+}

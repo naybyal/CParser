@@ -1,0 +1,45 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "fsetpos",
+  "children": [
+    {
+      "node_type": "ParmDecl",
+      "name": "__stream",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "FILE",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "FILE"
+      ]
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__pos",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "fpos_t",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "fpos_t"
+      ]
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__pos",
+    "__stream"
+  ]
+}

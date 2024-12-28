@@ -1,0 +1,11 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "main",
+  "children": [],
+  "control_flow": null,
+  "dependencies": [
+    "__value",
+    "",
+    "__count"
+  ]
+}

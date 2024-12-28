@@ -1,0 +1,53 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "fseeko",
+  "children": [
+    {
+      "node_type": "ParmDecl",
+      "name": "__stream",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "FILE",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "FILE"
+      ]
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__off",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__off_t",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "__off_t"
+      ]
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__whence",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__off",
+    "__stream",
+    "__whence"
+  ]
+}

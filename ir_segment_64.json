@@ -1,0 +1,17 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "putchar",
+  "children": [
+    {
+      "node_type": "ParmDecl",
+      "name": "__c",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__c"
+  ]
+}

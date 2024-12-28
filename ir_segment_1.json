@@ -1,0 +1,27 @@
+{
+  "node_type": "StructDecl",
+  "name": "",
+  "children": [
+    {
+      "node_type": "FieldDecl",
+      "name": "__val",
+      "children": [
+        {
+          "node_type": "IntegerLiteral",
+          "name": "",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        ""
+      ]
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__val"
+  ]
+}

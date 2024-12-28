@@ -1,0 +1,27 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "remove",
+  "children": [
+    {
+      "node_type": "UnexposedAttr",
+      "name": "",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__filename",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "",
+    "__filename",
+    "__value",
+    "__count"
+  ]
+}

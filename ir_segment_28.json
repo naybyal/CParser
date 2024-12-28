@@ -1,0 +1,68 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "fmemopen",
+  "children": [
+    {
+      "node_type": "UnexposedAttr",
+      "name": "",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "UnexposedAttr",
+      "name": "",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "TypeRef",
+      "name": "FILE",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__s",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__len",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "size_t",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "size_t"
+      ]
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__modes",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__len",
+    "__s",
+    "__modes",
+    "__value",
+    "",
+    "FILE",
+    "__count"
+  ]
+}

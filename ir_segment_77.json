@@ -1,0 +1,79 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "fread",
+  "children": [
+    {
+      "node_type": "TypeRef",
+      "name": "size_t",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__ptr",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__size",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "size_t",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "size_t"
+      ]
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__n",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "size_t",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "size_t"
+      ]
+    },
+    {
+      "node_type": "ParmDecl",
+      "name": "__stream",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "FILE",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "FILE"
+      ]
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__n",
+    "__size",
+    "__stream",
+    "__ptr",
+    "size_t"
+  ]
+}

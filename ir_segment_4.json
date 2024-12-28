@@ -1,0 +1,45 @@
+{
+  "node_type": "StructDecl",
+  "name": "_G_fpos_t",
+  "children": [
+    {
+      "node_type": "FieldDecl",
+      "name": "__pos",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__off_t",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "__off_t"
+      ]
+    },
+    {
+      "node_type": "FieldDecl",
+      "name": "__state",
+      "children": [
+        {
+          "node_type": "TypeRef",
+          "name": "__mbstate_t",
+          "children": [],
+          "control_flow": null,
+          "dependencies": []
+        }
+      ],
+      "control_flow": null,
+      "dependencies": [
+        "__mbstate_t"
+      ]
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__state",
+    "__pos"
+  ]
+}

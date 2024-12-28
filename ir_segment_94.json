@@ -1,0 +1,17 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "perror",
+  "children": [
+    {
+      "node_type": "ParmDecl",
+      "name": "__s",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__s"
+  ]
+}

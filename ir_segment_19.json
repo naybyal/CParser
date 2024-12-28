@@ -1,0 +1,27 @@
+{
+  "node_type": "FunctionDecl",
+  "name": "tmpfile",
+  "children": [
+    {
+      "node_type": "UnexposedAttr",
+      "name": "",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    },
+    {
+      "node_type": "TypeRef",
+      "name": "FILE",
+      "children": [],
+      "control_flow": null,
+      "dependencies": []
+    }
+  ],
+  "control_flow": null,
+  "dependencies": [
+    "__count",
+    "__value",
+    "",
+    "FILE"
+  ]
+}
